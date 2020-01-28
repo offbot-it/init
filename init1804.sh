@@ -9,7 +9,8 @@ nvm install 9
 nvm install 10.18.1
 sudo apt update
 sudo apt install yarn libgconf2-4 -y
-sudo snap install --classic code insomnia discord
+sudo snap install --classic code
+sudo snap install insomnia discord gitkraken slack
 mkdir offbot-it
 cd offbot-it
 curl "https://api.github.com/users/offbot-it/repos?page=1&per_page=100" |
